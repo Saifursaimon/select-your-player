@@ -8,6 +8,7 @@
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #151515;
 }
 
 header {
@@ -40,4 +41,46 @@ header {
 .header-texts p {
     font-size: 18px;
     color: #bbbaba;
+}
+
+.card {
+    width: 264px;
+    height: 371px;
+    background-color: black;
+}
+
+.card-body {
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.card-body .player-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.card-body .player-info p {
+    color: #868585;
+    font-weight: 500;
+}
+
+.select {
+    margin-top: 60px;
+}
+
+.select button {
+    background-color: #015196;
+    width: 221px;
+    height: 42px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.select button:hover {
+    background-color: #0364b9;
 }
