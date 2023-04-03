@@ -166,3 +166,15 @@ header {
     align-items: center;
     justify-content: space-between;
 }
+
+footer {
+    background-color: black;
+    height: 20vh;
+    text-align: center;
+    color: #AFAFAF;
+    border-top: 1px solid #AFAFAF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
