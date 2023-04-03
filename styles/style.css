@@ -45,15 +45,14 @@ header {
 
 .flex {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
 }
 
 .cards {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 40px;
-    margin-top: 40px;
 
 }
 
@@ -107,8 +106,10 @@ header {
     flex-direction: column;
     justify-content: center;
     color: white;
+    background-color: black;
     text-align: center;
     padding: 20px;
+    margin: 0 40px 40px 40px;
     border-radius: 10px;
     cursor: pointer;
 }
@@ -130,14 +131,13 @@ header {
 }
 
 .budget {
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center; */
     color: #AFAFAF;
+    background-color: black;
     text-align: center;
     padding: 20px;
     border-radius: 10px;
-    height: auto;
+    margin: 40px;
+
 }
 
 .input-field {
