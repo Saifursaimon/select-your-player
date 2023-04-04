@@ -154,26 +154,26 @@
               <h2>Budget</h2>
               <div class="input-field">
                 <label for="">Per Player</label>
-                <input type="text" />
+                <input id="per-player-amount" type="text" />
               </div>
               <div class="select">
-                <button type="button">Calculate</button>
+                <button id="btn-calculate" type="button">Calculate</button>
               </div>
-              <p>Player Expences $<span>5000</span></p>
+              <p>Player Expences $<span id="expences">0</span></p>
               <div class="input-field">
                 <label for="">Manager</label>
-                <input type="text" />
+                <input id="manager" type="text" />
               </div>
               <div class="input-field">
                 <label for="">Coach</label>
-                <input type="text" />
+                <input id="coach" type="text" />
               </div>
               <div class="select">
-                <button type="button">Calculate Total</button>
+                <button id="total" type="button">Calculate Total</button>
               </div>
               <div class="total">
                 <p>Total :</p>
-                <p>$<span>500000</span></p>
+                <p>$<span id="total-amount">0</span></p>
               </div>
             </div>
           </div>
@@ -184,5 +184,6 @@
       <p>Copyright @2023 All Copyright Reserved.</p>
     </footer>
     <script src="js/players-list.js"></script>
+    <script src="js/budget-calculator.js"></script>
   </body>
 </html>

@@ -101,17 +101,6 @@ header {
     background-color: #0364b9;
 }
 
-.select button[disabled] {
-    background-color: #434444;
-    width: 221px;
-    height: 42px;
-    border: none;
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-}
-
-
 .list {
     width: 264px;
     height: 371px;
