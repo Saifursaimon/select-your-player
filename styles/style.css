@@ -113,6 +113,8 @@ header {
 
 
 .list {
+    width: 264px;
+    height: 371px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -120,7 +122,6 @@ header {
     background-color: black;
     text-align: center;
     padding: 20px;
-    margin: 0 40px 40px 40px;
     border-radius: 10px;
     cursor: pointer;
 }
@@ -138,23 +139,19 @@ header {
     font-size: larger;
     font-weight: 6;
     padding: 10px;
-    color: #868585;
-}
-
-.list ul li span {
-    display: inline-block;
-    width: 200px;
     color: white;
-
 }
+
 
 .budget {
+    width: 264px;
+    height: 471px;
     color: #AFAFAF;
     background-color: black;
     text-align: center;
     padding: 20px;
     border-radius: 10px;
-    margin: 40px;
+    margin-top: 60px;
 
 }
 
